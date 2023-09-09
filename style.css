@@ -1,0 +1,329 @@
+﻿
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color:rgb(34,35,35);
+	background-image:url(pat.png);
+}
+
+h1,h2,h3,h4,p{
+	color:white;
+	font-family:sans-serif, verdana;
+}
+
+p {
+    
+	font-size:12pt;
+}
+
+a{
+	text-decoration:none;
+	font-family:sans-serif, verdana;
+	color:white;
+	font-weight:bold;
+}
+a:hover{
+	text-decoration:underline;
+}
+a:visited{
+	text-decoration:none;
+}
+
+#navi .navilink{
+	
+	font-weight:bold;
+	padding:10px;
+	
+	font-size:14pt;
+	transition-duration: .3s;
+	transition-timing-function:ease-out;
+	
+	
+}
+
+#navi .navilink:hover{
+	font-size:14pt;
+	
+	font-weight:bold;
+	background-color:rgb(205,177,124);
+	
+	box-shadow: 0px 0px 5px rgba(0,0,0,.4) inset;
+	
+	text-decoration:none;
+}
+
+#navi{
+	margin-top:20px;
+	
+}
+
+#container{
+
+	width:900px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:rgb(52,54,55);
+	padding:20px;
+	border:1px solid black;
+	 box-shadow: 0px 0px 20px rgba(0,0,0,.4) inset;
+}
+
+#head{
+	margin-top:10px;
+	
+	background-image:url(logo6.png);
+	background-repeat:no-repeat;
+	
+	height:200px;
+}
+
+#content{
+
+	min-height:400px;
+	margin-top:30px;
+}
+
+#RustMapCanvas{
+	border: 1px solid black;
+	
+	
+}
+
+#NewMarkForm{
+	
+}
+
+
+#submitMarkerDiv{
+	position:absolute;
+	max-width:340px; 
+	height:auto;
+	min-width:250px;
+	padding:5px; 
+	background-color:rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 6px rgba(10, 10, 10, 0.75);
+	z-index: 100;
+}
+
+#submitMarkerDiv img{
+
+margin:0px;
+padding:0px;
+
+}
+
+#markImage{
+	display:inline;
+	width:100%;
+	height:100%;
+	font:10pt verdana;
+	color:#e92038;
+	font-weight:bold;
+	border:1px solid black;
+}
+
+#submitMarkerDiv p{
+	color:white;
+	font-size:10pt;
+
+}
+
+#submitMarkerDiv h1,h2,h3,h4{
+	color:white;
+
+}
+
+#Views{
+
+	position:fixed;
+	top: 50px;
+	width:40px;
+	height:auto;
+	background-color:rgba(0,0,0,0.75);
+	color:white;
+	padding:2px;
+	padding-left:10px;
+	box-shadow: 2px 2px 6px rgba(10, 10, 10, 0.75);
+	
+}
+
+#Views p{
+	font-size:8pt;
+	
+}
+
+#GUIDiv{
+	position:fixed;
+	bottom: 0px;
+	width:250px;
+	height:auto;
+	background-color:rgba(0,0,0,0.75);
+	color:white;
+	padding:10px;
+	padding-left:15px;
+	box-shadow: 2px 2px 6px rgba(10, 10, 10, 0.75);
+}
+
+#GUIDiv p{
+	font-size:10pt;
+	display:inline;
+}
+
+#responseDiv p{
+	color:#9ccde6;
+}
+
+#footer{
+	
+	
+	margin-top:10px;
+	padding-top:5px;
+}
+
+#footer a{
+
+	color:grey;
+	font-size:10pt;
+	
+}
+
+input {
+
+	border:1px solid #000000;
+	-webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+	box-shadow: 1px 2px 4px rgba(0,0,0,.4) inset;
+
+}
+
+
+input:focus{
+
+}
+
+
+.button {
+   background-color: rgba(206,65,43,1);
+   padding: 5px;
+   display: inline-block;
+   font-size: 10px;
+   color: white;
+   font-weight:bold;
+   font-family:sans serif,verdana;
+   border:1px outset black;
+   border-radius:5px;
+   margin:2px;
+   height:auto;
+   box-shadow: 1px 2px 4px rgba(0,0,0,.4) inset;
+}
+.button:hover {
+   background-color: rgba(206,65,43,1);
+  
+  
+}
+.button:active {
+
+	 border:1px inset black;
+}
+
+#imageButton{
+	padding:0px;
+	font-size:8pt;
+}
+
+#toolbar img{
+	padding:2px;
+	
+}
+
+
+
+.toolbarbutton {
+   background-color: rgba(50,50,50,1);
+   
+   display: inline-block;
+   font-size: 12px;
+   color: white;
+   font-weight:bold;
+   font-family:sans serif,verdana;
+   border:2px outset black;
+   border-radius:5px;
+   margin:2px;
+   width:16px;
+   height:20px;
+   padding:3px;
+}
+.toolbarbutton:hover {
+
+   border:2px solid lightblue;
+  
+}
+.toolbarbutton:active {
+
+	 border:2px inset black;
+}
+
+#MapNameDiv h4{
+
+	display:inline;
+}
+
+#ads{
+	#background-image:URL(leaderboardtest.png);
+	background-repeat:no-repeat;
+	position:fixed;
+	width:auto;
+	height:auto;
+	bottom:5px;
+	right:5px;
+	background-color:rgba(0,0,0,0.75);
+	color:white;
+	margin-top:0px;
+	box-shadow: 2px 2px 6px rgba(10, 10, 10, 0.75);
+
+}
+
+#messagediv a{
+	color:#ec6065;
+	font-size:10pt;
+	
+	margin-right:5px;
+
+	transition-duration: 0s;
+	transition-timing-function:ease-out;
+	
+}
+
+#messagediv a:hover{
+	font-size:10pt;
+	padding:0px;
+	
+
+	border-radius:0px;
+	color:#ec6065;
+	background-color:rgba(0,0,0,0);
+	text-decoration:underline;
+}
+
+#messagediv p{
+	font-size:10pt;
+	color:black;
+	font-weight:bold;
+}
+#messagediv{
+	position:fixed;
+	
+	top:-45px;
+	
+	padding:5px;
+	padding-left:15px;
+	height:auto;
+	width:auto;
+	background-color:rgba(45,117,224, 0.75);
+	box-shadow: 2px 2px 6px rgba(10, 10, 10, 0.75);
+
+}
